@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.byox.views.DrawView
+        android:id="@+id/testCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" />
+
+    <LinearLayout
+        android:id="@+id/padPagePanel"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/rounded_edge"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/wbPrevBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/previous" />
+
+        <EditText
+            android:id="@+id/padCurpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/curpage_background"
+            android:inputType="number"
+            android:minWidth="32dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="/ 5"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/wbNextBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/brush_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_brush_black_36dp" />
+
+        <ImageButton
+            android:id="@+id/ibEraser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_save_blue_grey_700_36dp" />
+
+        <ImageButton
+            android:id="@+id/ibClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_clear_red_600_36dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

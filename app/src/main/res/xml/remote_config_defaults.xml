@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>API_URL_KEY</key>
+        <value>https://server2.2schooldirect.net/uv_student_api/api/</value>
+    </entry>
+</defaultsMap>

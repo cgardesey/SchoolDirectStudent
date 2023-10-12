@@ -1,0 +1,4 @@
+//include ':app', ':filepicker', ':audioRecorder', ':mobile-ffmpeg-min-4.4.LTS'
+include ':app', ':filepicker'
+
+rootProject.name = "SchoolDirectStudent"

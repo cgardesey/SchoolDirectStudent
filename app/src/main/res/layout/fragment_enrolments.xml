@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_concave_50"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:id="@+id/feeexpirylayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/feeexpitydescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App usage subscription expires on:" />
+
+        <TextView
+            android:id="@+id/feeexpirydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            tools:text="Jue 21, 2020" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/enrolments_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        tools:listitem="@layout/recycle_enrolment" />
+
+    <Button
+        android:id="@+id/renewsubscriptionbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/bg_gradient"
+        android:text="Renew Subscription"
+        android:visibility="gone"
+        android:textColor="@color/actual_white" />
+
+    <TextView
+        android:id="@+id/nodatatext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="@string/enrolments_will_show_here_after_you_enrol_into_course_s" />
+
+</LinearLayout>
+

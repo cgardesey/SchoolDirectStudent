@@ -1,0 +1,50 @@
+package com.univirtual.student.activity;
+
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.univirtual.student.R;
+
+import uk.co.senab.photoview.PhotoViewAttacher;
+
+
+public class PictureActivity extends AppCompatActivity {
+    public static Bitmap profilePicBitmap;
+
+    private ImageView photoImageView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_picture);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        photoImageView = findViewById(R.id.photoImageView);
+        photoImageView.getLayoutParams().width = getWindowManager().getDefaultDisplay().getWidth();
+        photoImageView.getLayoutParams().height = getWindowManager().getDefaultDisplay().getHeight();
+        photoImageView.setAdjustViewBounds(true);
+        //photoImageView.setScaleType(ImageView.ScaleType.FIT_XY);
+        PhotoViewAttacher photoViewAttacher = new PhotoViewAttacher(photoImageView);
+
+        Intent intent = getIntent();
+        Bundle extras = intent.getExtras();
+
+        photoImageView.setImageBitmap(profilePicBitmap);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+}

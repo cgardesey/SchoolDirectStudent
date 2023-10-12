@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_gradient_square"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@color/transparent"
+            android:padding="16dp"
+            android:src="@drawable/left" />
+
+        <TextView
+            android:id="@+id/coursepath"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="SHS >> Physics"
+            android:textColor="@color/actual_white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@color/transparent"
+            android:padding="16dp"
+            android:src="@drawable/reload" />
+
+        <!--<ImageView
+            android:id="@+id/menu"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@color/transparent"
+            android:padding="16dp"
+            android:src="@drawable/menu_vertical" />-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar"
+        android:background="#F1F1ED"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Topics"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"
+        tools:listitem="@layout/recycle_resource" />
+
+    <TextView
+        android:id="@+id/norecordingtext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="There currently are no class topics.\n\nClick on the refresh icon at the top right corner to check for new topics."
+        android:visibility="gone" />
+
+</RelativeLayout>
