@@ -21,18 +21,18 @@ This is an android app that enables customers and providers to trade products an
 - **Offline Mode**: Support offline access to quizzes, allowing users to download quizzes and explanations for offline practice and learning.
 
 ## Screenshots
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/553306e0-5524-49dd-9c1f-48b88213e6bb" width="250" height= 530 alt="Screenshot 1">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/8307d89f-cd57-43be-81d5-12ddca057acd" width="250" height= 530 alt="Screenshot 2">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/d35fa56a-c919-4d90-b89a-3c461bbb3e42" width="250" height= 530 alt="Screenshot 3">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/5d1c6c0b-ea27-494c-9222-7612170be776" width="250" height= 530 alt="Screenshot 4">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/1b692eec-0b7d-4e5e-9d93-70a9e389ca18" width="250" height= 530 alt="Screenshot 5">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/5d52b1ef-4b0d-4f19-aeb3-771702fbba8d" width="250" height= 530 alt="Screenshot 6">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/d359bfff-a31f-4f3f-84d8-97797043538b" width="250" height= 530 alt="Screenshot 7">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/b2f5cfcb-2a6f-4272-af43-832356fe14ed" width="250" height= 530 alt="Screenshot 8">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/a40a0160-626e-4449-8057-dc3d32990c92" width="250" height= 530 alt="Screenshot 9">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/3c11cba5-47c1-4914-9171-aac249d20af3" width="250" height= 530 alt="Screenshot 10">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/c15857ef-11ef-4fa7-a8c5-54f3abe052ce" width="250" height= 530 alt="Screenshot 11">
-<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/1f43bbf9-0b5c-47fd-833d-49e8fcb8cd0f" width="250" height= 530 alt="Screenshot 12">
+<img src="" width="250" height= 530 alt="Screenshot 1">
+<img src="" width="250" height= 530 alt="Screenshot 2">
+<img src="" width="250" height= 530 alt="Screenshot 3">
+<img src="" width="250" height= 530 alt="Screenshot 4">
+<img src="" width="250" height= 530 alt="Screenshot 5">
+<img src="" width="250" height= 530 alt="Screenshot 6">
+<img src="" width="250" height= 530 alt="Screenshot 7">
+<img src="" width="250" height= 530 alt="Screenshot 8">
+<img src="" width="250" height= 530 alt="Screenshot 9">
+<img src="" width="250" height= 530 alt="Screenshot 10">
+<img src="" width="250" height= 530 alt="Screenshot 11">
+<img src="" width="250" height= 530 alt="Screenshot 12">
 
 ## Getting Started
 
