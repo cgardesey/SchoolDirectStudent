@@ -21,18 +21,18 @@ This is an android app that enables customers and providers to trade products an
 - **Offline Mode**: Support offline access to quizzes, allowing users to download quizzes and explanations for offline practice and learning.
 
 ## Screenshots
-<img src="" width="250" height= 530 alt="Screenshot 1">
-<img src="" width="250" height= 530 alt="Screenshot 2">
-<img src="" width="250" height= 530 alt="Screenshot 3">
-<img src="" width="250" height= 530 alt="Screenshot 4">
-<img src="" width="250" height= 530 alt="Screenshot 5">
-<img src="" width="250" height= 530 alt="Screenshot 6">
-<img src="" width="250" height= 530 alt="Screenshot 7">
-<img src="" width="250" height= 530 alt="Screenshot 8">
-<img src="" width="250" height= 530 alt="Screenshot 9">
-<img src="" width="250" height= 530 alt="Screenshot 10">
-<img src="" width="250" height= 530 alt="Screenshot 11">
-<img src="" width="250" height= 530 alt="Screenshot 12">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/ea84a168-0d9a-4fdb-b150-e825b26d57ba" width="250" height= 530 alt="Screenshot 1">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/fc4483cf-b751-4343-b52a-1a7a23196ff4" width="250" height= 530 alt="Screenshot 2">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/d402df4e-a4d5-4e7e-b53b-ce492b12a983" width="250" height= 530 alt="Screenshot 3">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/f9a00deb-9757-4cef-af8e-0c3ef76e74b3" width="250" height= 530 alt="Screenshot 4">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/f0edc6b3-c404-4a99-b894-22cd96112a1d" width="250" height= 530 alt="Screenshot 5">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/335c56bc-6f90-4449-a788-35ad8655fd8d" width="250" height= 530 alt="Screenshot 6">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/8d28dadc-3ec6-4758-bb8b-0033e91dfa93" width="250" height= 530 alt="Screenshot 7">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/443c1344-67f8-4677-bd37-c85a5c239f5d" width="250" height= 530 alt="Screenshot 8">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/00978a66-8d0c-4ae3-9fb4-0a624a7d77af" width="250" height= 530 alt="Screenshot 9">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/cd2d83d6-97e8-49e8-bb93-c093119c833d" width="250" height= 530 alt="Screenshot 10">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/a19538d5-78fb-4b23-a4d6-3afa84a2f389" width="250" height= 530 alt="Screenshot 11">
+<img src="https://github.com/cgardesey/SchoolDirectStudent/assets/10109354/1cf36fb4-de8d-4c86-8b1e-d583f630388d" width="250" height= 530 alt="Screenshot 12">
 
 ## Getting Started
 
