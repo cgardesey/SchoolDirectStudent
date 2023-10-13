@@ -1,6 +1,6 @@
 # School Direct Student Android App
 
-This is an android app that enables customers and providers to trade products and services. Whether you're a customer looking for unique offerings or a provider seeking new business opportunities, School Direct Student App provides a platform to connect and transact securely.
+**School Direct Student** is an Android app designed to facilitate a seamless learning experience for students. It offers a range of features to enhance their educational journey, from course enrollment to interactive quizzes. This README provides an overview of the app's key features and functionalities.
 
 ## Features
 
